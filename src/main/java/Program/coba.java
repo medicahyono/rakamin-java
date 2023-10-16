@@ -13,5 +13,6 @@ public class coba
         System.out.println("hello, taqy");
 
         JOptionPane.showMessageDialog(null,"Hay Medic, Kholif dan Taqy");
+        JOptionPane.showConfirmDialog(null,"kamu yakin mau lanjut ?");
     }
 }
