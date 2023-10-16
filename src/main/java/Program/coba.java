@@ -1,5 +1,7 @@
 package Program;
 
+import javax.swing.*;
+
 public class coba
 {
     public static void main (String []arg)
@@ -9,5 +11,7 @@ public class coba
         System.out.println("hello, medicahyono");
         System.out.println("hello, kholifah");
         System.out.println("hello, taqy");
+
+        JOptionPane.showMessageDialog(null,"Hay Medic, Kholif dan Taqy");
     }
 }
