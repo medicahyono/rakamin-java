@@ -6,5 +6,8 @@ public class coba
     {
         //ini adalah program untuk mencetak hello word
         System.out.println("hello, World");
+        System.out.println("hello, medicahyono");
+        System.out.println("hello, kholifah");
+        System.out.println("hello, taqy");
     }
 }
