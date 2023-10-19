@@ -31,8 +31,13 @@ public class Login
         driver.manage().window().maximize();
         driver.get(baseUrl);
 
+        driver.findElement(By.id("email")).sendKeys("tokomedic@gmail.com");
+        driver.findElement(By.id("password")).sendKeys("tokomedic");
+        driver.findElement(By.xpath("//button[@type='submit']")).click();
+
+
         //Assertion
-        String loginPageAssert = driver.findElement(By.xpath("//h2[contains(text(), 'hai, kasir Aja')]")).getText();
+        String loginPageAssert = driver.findElement(By.xpath("//h2[contains(text(),'hai, kasir Aja')]")).getText();
         Assert.assertEquals(loginPageAssert, "hai, kasir Aja");
     }
 
