@@ -12,8 +12,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class LogIn {
-
+public class LogIn
+{
         WebDriver driver; //
         String baseUrl="https://saucedemo.com/";
         @Given("Halaman login saucedemo")
@@ -48,7 +48,7 @@ public class LogIn {
             //String username= driver.findElement(By.xpath("//dd[contains(text(),'hai')]/preceding-sibling::dt")).getText();
             //Assert.assertEquals(username,"SwagLab");
             driver.findElement(By.id("header_container"));
-            driver.close();
+            //driver.close();
         }
 
         @And("Click login button")
@@ -66,8 +66,13 @@ public class LogIn {
         @Then("User get error message")
         public void userGetErrorMessage()
         {
-
             driver.findElement(By.className("error-button")).sendKeys("Epic sadface: Username and password do not match any user in this service");
             //driver.close();
+        }
+
+        @When("Input Invalid username")
+        public void inputInvalidUsername()
+        {
+            driver.findElement(By.id("user-name")).sendKeys("aaaaaaaa");
         }
 }
