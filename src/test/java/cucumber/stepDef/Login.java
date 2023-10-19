@@ -35,13 +35,13 @@ public class Login
         driver.findElement(By.id("password")).sendKeys("tokomedic");
         driver.findElement(By.xpath("//button[@type='submit']")).click();
 
-
         //Assertion
         String loginPageAssert = driver.findElement(By.xpath("//h2[contains(text(),'hai, kasir Aja')]")).getText();
         Assert.assertEquals(loginPageAssert, "hai, kasir Aja");
     }
 
     @When("Input username")
+
     public void inputUsername()
     {
         driver.findElement(By.id("email")).sendKeys("tokomedic@gmail.com");
@@ -74,7 +74,8 @@ public class Login
     }
 
     @Then("User get error message")
-    public void userGetErrorMessage() {
+    public void userGetErrorMessage()
+    {
         String errorlogin = driver.findElement(By.xpath("//div[@role='alert']")).getText();
         Assert.assertEquals(errorlogin, "Kredensial anda salah");
         driver.close();
