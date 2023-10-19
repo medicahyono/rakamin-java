@@ -18,15 +18,8 @@ public class Login
     public void halaman_login_kasir_aja()
     {
         WebDriverManager.chromedriver().setup();
-        //ChromeOptions opt = new ChromeOptions();
-
-        //WebDriverManager.firefoxdriver().setup();
-        //FirefoxOptions opt = new FirefoxOptions();
-
-        //opt.setHeadless(false);
 
         driver = new ChromeDriver();
-        //driver = new FirefoxDriver(opt);
         driver.manage().timeouts().implicitlyWait( 60, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get(baseUrl);
@@ -36,8 +29,8 @@ public class Login
         driver.findElement(By.xpath("//button[@type='submit']")).click();
 
         //Assertion
-        String loginPageAssert = driver.findElement(By.xpath("//h2[contains(text(),'hai, kasir Aja')]")).getText();
-        Assert.assertEquals(loginPageAssert, "hai, kasir Aja");
+        String loginPageAssert = driver.findElement(By.xpath("//h2[contains(text(),'hai, kasirAja')]")).getText();
+        Assert.assertEquals(loginPageAssert, "hai, kasirAja");
     }
 
     @When("Input username")
@@ -54,7 +47,8 @@ public class Login
     }
 
     @And("Click login button")
-    public void clickLoginButton() {
+    public void clickLoginButton()
+    {
         driver.findElement(By.xpath("//button[@type='submit']")).click();
     }
 

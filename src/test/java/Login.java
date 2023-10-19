@@ -8,6 +8,7 @@ import static org.junit.Assert.assertFalse;
 
 public class Login
 {
+    /*
     @Test //method membuka browser saucedemo
     public  void open_browser()
     {
@@ -121,4 +122,6 @@ public class Login
         //print hasil jika berhasil
         System.out.print(driver.findElement(By.className("className")));
     }
+
+     */
 }

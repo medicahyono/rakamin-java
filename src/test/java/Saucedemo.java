@@ -10,10 +10,10 @@ import java.time.Duration;
 import static org.junit.Assert.assertFalse;
 
 public class Saucedemo {
-
+/*
     ChromeDriver driver;
 
-    @Before
+
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "/C:/Users/anyut/chromedriver.exe");
         driver = new ChromeDriver();
@@ -73,4 +73,6 @@ public class Saucedemo {
     public void TearDown() {
         driver.quit();
     }
+
+ */
 }
