@@ -1,9 +1,5 @@
 # rakamin-java
-Belajar rakamin automation java
-
-
-Automation Testing web hhtps://saucedemo.com/
-with Java Cucumber
+Learning  Automation Testing web hhtps://saucedemo.com/ with Java Cucumber <br>
 
 Home sumary result automation test with 
 https://drive.google.com/file/d/1rFgDVEiadfZ58PSiT1RE8TLlfjYgRp4r/view?usp=sharing
