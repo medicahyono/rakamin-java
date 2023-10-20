@@ -1,11 +1,11 @@
 # rakamin-java
 <b>Learning  Automation Testing web <br>
-site: https://saucedemo.com/ <br> 
-Framework : Java Gherkin Cucumber </b> <br> <br>
+Website: https://saucedemo.com/ <br> 
+Framework : Java Gherkin Cucumber </b> 
+by:muhammad edi cahyono <br> <br>
 
 
-The 
-Home summary report
+The summary Home report
 
 https://drive.google.com/file/d/1rFgDVEiadfZ58PSiT1RE8TLlfjYgRp4r/view?usp=sharing<br><br>
 
