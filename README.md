@@ -1,8 +1,11 @@
 # rakamin-java
-<b>Learning  Automation Testing web hhtps://saucedemo.com/ with Java Cucumber</b> <br>
+<b>Learning  Automation Testing web <br>
+site: https://saucedemo.com/ <br> 
+Framework : Java Gherkin Cucumber </b> <br> <br>
 
+
+The 
 Home summary report
-![alt text](https://drive.google.com/file/d/1rFgDVEiadfZ58PSiT1RE8TLlfjYgRp4r/view?usp=sharing)
 
 https://drive.google.com/file/d/1rFgDVEiadfZ58PSiT1RE8TLlfjYgRp4r/view?usp=sharing<br><br>
 
@@ -24,6 +27,9 @@ Feature:Shoping Product<br>
 Feature:Payment saucedemo<br>
 	Scenario:Success checkout<br>
    https://drive.google.com/file/d/1neoxnnsRuX9qXgBBYyawa-szsDBMQ77Z/view?usp=sharing<br><br>
+
+
+
  
 
 	
