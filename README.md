@@ -2,7 +2,7 @@
 <b>Learning  Automation Testing web hhtps://saucedemo.com/ with Java Cucumber</b> <br>
 
 Home summary report
-![alt text]([http://url/to/img.png](https://drive.google.com/file/d/1rFgDVEiadfZ58PSiT1RE8TLlfjYgRp4r/view?usp=sharing))
+![alt text](https://drive.google.com/file/d/1rFgDVEiadfZ58PSiT1RE8TLlfjYgRp4r/view?usp=sharing)
 
 https://drive.google.com/file/d/1rFgDVEiadfZ58PSiT1RE8TLlfjYgRp4r/view?usp=sharing<br><br>
 
