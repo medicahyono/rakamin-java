@@ -4,7 +4,7 @@ Website: https://saucedemo.com/ <br>
 Framework : Java Gherkin Cucumber </b> <br>
 by:muhammad edi cahyono <br> <br>
 
-
+The following are the features that we automate with the framework. We have attached a screenshot in the Google Drive link.
 The summary Home report
 
 https://drive.google.com/file/d/1rFgDVEiadfZ58PSiT1RE8TLlfjYgRp4r/view?usp=sharing<br><br>
