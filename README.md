@@ -5,9 +5,8 @@ Framework : Java Gherkin Cucumber </b> <br>
 by:muhammad edi cahyono <br> <br>
 
 The following are the features that we automate with the framework. We have attached a screenshot in the Google Drive link.
-The summary Home report
-
-https://drive.google.com/file/d/1rFgDVEiadfZ58PSiT1RE8TLlfjYgRp4r/view?usp=sharing<br><br>
+The summary home report :
+![Capture-home](https://github.com/medicahyono/rakamin-java/assets/148028751/d7bad6a2-52fa-462f-8e50-a1403d252cbf)
 
 Feature Login <br>
 	Scenario:Success Login<br>
