@@ -6,6 +6,10 @@ by:muhammad edi cahyono <br> <br>
 
 The following are the features that we automate with the framework. We have attached a screenshot in the Google Drive link.
 The summary home report :
+
+local: 
+http://localhost:63342/Rakamin-java/target/HTML_report.html?_ijt=abv7tomku11q5u13abqh5v4288&_ij_reload=RELOAD_ON_SAVE
+
 ![Capture-home](https://github.com/medicahyono/rakamin-java/assets/148028751/d7bad6a2-52fa-462f-8e50-a1403d252cbf)
 
 Feature Login <br>
