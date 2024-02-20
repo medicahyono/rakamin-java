@@ -28,7 +28,10 @@ Feature:Payment saucedemo<br>
    https://drive.google.com/file/d/1neoxnnsRuX9qXgBBYyawa-szsDBMQ77Z/view?usp=sharing<br><br>
 
 
-
+CAN running well if you install:
+1. editor : intelij
+2. java jdk
+3. Framework Java Cucumber
  
 
 	
