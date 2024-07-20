@@ -18,4 +18,3 @@ Feature: Payment saucedemo
     Then User in overview checkout
     Then User klik finish
     Then User on page success checkout
-

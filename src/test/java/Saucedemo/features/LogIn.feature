@@ -7,7 +7,6 @@ Feature: Login Page Saucedemo
     And Click login button
     Then User in on dashboard page
 
-
   Scenario: Failed Logins with invalid password
     Given Halaman login saucedemo
     When Input username
@@ -21,3 +20,5 @@ Feature: Login Page Saucedemo
     And Input password
     And Click login button
     Then User get error message
+
+

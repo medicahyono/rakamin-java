@@ -5,10 +5,9 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
 
@@ -19,9 +18,9 @@ public class LogIn
         @Given("Halaman login saucedemo")
         public void halaman_login_saucedemo()
         {
-            WebDriverManager.chromedriver().setup();
+            WebDriverManager.firefoxdriver().setup();
 
-            driver = new ChromeDriver();
+            driver = new FirefoxDriver();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
             driver.manage().window().maximize();
             driver.get(baseUrl);
@@ -44,11 +43,8 @@ public class LogIn
         @Then("User in on dashboard page")
         public void userInOnDashboardPage()
         {
-            //driver.findElement(By.xpath("//div[contains(text(),'dashboard')]"));
-            //String username= driver.findElement(By.xpath("//dd[contains(text(),'hai')]/preceding-sibling::dt")).getText();
-            //Assert.assertEquals(username,"SwagLab");
             driver.findElement(By.id("header_container"));
-            //driver.close();
+
         }
 
         @And("Click login button")
