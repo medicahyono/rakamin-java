@@ -1,13 +1,16 @@
 # rakamin-java
 <b>Learning  Automation Testing web <br>
-site: https://saucedemo.com/ <br> 
-Framework : Java Gherkin Cucumber </b> <br> <br>
+Website: https://saucedemo.com/ <br> 
+Framework : Java Gherkin Cucumber </b> <br>
+by:muhammad edi cahyono <br> <br>
 
+The following are the features that we automate with the framework. We have attached a screenshot in the Google Drive link.
+The summary home report :
 
-The 
-Home summary report
+local: 
+http://localhost:63342/Rakamin-java/target/HTML_report.html?_ijt=abv7tomku11q5u13abqh5v4288&_ij_reload=RELOAD_ON_SAVE
 
-https://drive.google.com/file/d/1rFgDVEiadfZ58PSiT1RE8TLlfjYgRp4r/view?usp=sharing<br><br>
+![Capture-home](https://github.com/medicahyono/rakamin-java/assets/148028751/d7bad6a2-52fa-462f-8e50-a1403d252cbf)
 
 Feature Login <br>
 	Scenario:Success Login<br>
@@ -29,7 +32,10 @@ Feature:Payment saucedemo<br>
    https://drive.google.com/file/d/1neoxnnsRuX9qXgBBYyawa-szsDBMQ77Z/view?usp=sharing<br><br>
 
 
-
+CAN running well if you install:
+1. editor : intelij
+2. java jdk
+3. Framework Java Cucumber
  
 
 	
